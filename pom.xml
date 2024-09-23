@@ -11,7 +11,7 @@
     <groupId>com.api.rest</groupId>
     <artifactId>Patrimoine</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+   <!-- <packaging>jar</packaging> -->
 
     <name>Patrimoine</name>
     <description>API REST pour gérer le patrimoine</description>
@@ -53,16 +53,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity</artifactId>
-            <version>1.7</version>
-        </dependency>
+
     </dependencies>
 
     <build>
