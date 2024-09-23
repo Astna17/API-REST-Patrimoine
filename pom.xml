@@ -11,8 +11,10 @@
     <groupId>com.api.rest</groupId>
     <artifactId>Patrimoine</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
     <name>Patrimoine</name>
-    <description>Patrimoine</description>
+    <description>API REST pour gérer le patrimoine</description>
     <url/>
     <licenses>
         <license/>
@@ -55,11 +57,6 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.api.rest</groupId>
-            <artifactId>Patrimoine</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
